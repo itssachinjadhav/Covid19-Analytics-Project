@@ -28,7 +28,7 @@ SQL was used to clean, transform, and analyze the dataset, focusing on **COVID d
 
 **4. Average COVID Deaths Per Week:**
    * Generated average weekly death counts for each jurisdiction over the most recent 4 periods.
-   * **Finding:**The average number of weekly COVID deaths across jurisdictions shows a consistent trend in certain regions, with **United States** having the highest weekly death toll.
+   * **Finding:** The average number of weekly COVID deaths across jurisdictions shows a consistent trend in certain regions, with **United States** having the highest weekly death toll.
 
 **5. Excluding Zero Death Regions:**
    * Filtered out regions with missing data and zero deaths for the latest period.
@@ -48,18 +48,22 @@ SQL was used to clean, transform, and analyze the dataset, focusing on **COVID d
 ### Key Visuals and Analysis
 
 **1.COVID Deaths Over Time Across Regions**
-      * **Visualization:** A multi-line chart showing the number of deaths over time for various regions.
-      * **Purpose:** To track COVID waves and highlight the regions most impacted during specific timeframes.
-      * **Observation:**
-         * Significant spikes occurred in **January 2021** and **August 2021**.
-         * States like **California** and **New York** experienced higher peaks compared to others.
+
+  * **Visualization:** A multi-line chart showing the number of deaths over time for various regions.
+  * **Purpose:** To track COVID waves and highlight the regions most impacted during specific timeframes.
+  * **Observation:**
+    
+      * Significant spikes occurred in **January 2021** and **August 2021**.
+      * States like **California** and **New York** experienced higher peaks compared to others.
 
 **2. Yearly Change in COVID Deaths Across Regions** 
-      * **Visualization:** A stacked bar chart displaying the yearly percentage breakdown of COVID deaths across different regions.
-      * **Purpose:** To compare the proportional impact of COVID deaths across regions on a yearly basis.
-      * **Observation:**
-         *Some regions (e.g., Connecticut, New Jersey) showed high early death rates in 2020.
-         *Yearly trends show fluctuations across different states as the pandemic evolved.   
+
+  * **Visualization:** A stacked bar chart displaying the yearly percentage breakdown of COVID deaths across different regions.
+  * **Purpose:** To compare the proportional impact of COVID deaths across regions on a yearly basis.
+  * **Observation:**
+    
+      * Some regions (e.g., Connecticut, New Jersey) showed high early death rates in 2020.
+      * Yearly trends show fluctuations across different states as the pandemic evolved.   
 
 **3. Additional Interactivity:**
    * Slicers, bookmarks, and buttons were implemented to allow users to filter and dynamically explore the data for specific jurisdictions, time periods, or metrics.
@@ -81,10 +85,10 @@ SQL was used to clean, transform, and analyze the dataset, focusing on **COVID d
 ### SQL Insights Contribution:
 
    The SQL analysis provided a foundation for understanding:
-
-     1. Death trends (weekly, cumulative, and top regions).
-     2. Regions with sharp spikes and significant rate differences.
-     3. Accurate metrics for visualization, ensuring robust Power BI outputs.
+   
+  1. Death trends (weekly, cumulative, and top regions).
+  2. Regions with sharp spikes and significant rate differences.
+  3. Accurate metrics for visualization, ensuring robust Power BI outputs.
 
 ## 4. Conclusion
 
