@@ -13,7 +13,7 @@
     * Data labels highlight peak death counts for better interpretation.
     * A tooltip is displayed for specific data points (e.g., California on January 24, 2021, with 3,522 deaths).
 
-![COVID Deaths Over Time Across Regions](PowerBI/Images/Line_chart-COVID_Deaths_across_regions)
+![COVID Deaths Over Time Across Regions](PowerBI/Images/Line_chart-COVID_Deaths_across_regions.png)
 
 ## 2. Stacked Bar Chart: COVID Deaths Yearly Change Across Different Regions
 
@@ -27,7 +27,7 @@
     * Percentages are labeled within each bar for clear understanding.
     * Regions such as Connecticut and New Jersey have noticeable contributions in certain years.
 
-![Stacked Bar Chart](PowerBI/Images/Stacked_bar-COVID_deaths_across_regions)
+![Stacked Bar Chart](PowerBI/Images/Stacked_bar-COVID_deaths_across_regions.png)
 
 ## 3.Bar Chart: Crude COVID Rate by Jurisdiction Compared to National Average
 
@@ -50,7 +50,7 @@
    * Data labels clearly indicate the crude COVID rates for each jurisdiction.
    * A dashed line highlights the national average (1.79) for easy comparison.
 
-![Crude COVID Rate to National Average](PowerBI/Images/Bar_chart-Crude_COVID_Rateto_National_Average)
+![Crude COVID Rate to National Average](PowerBI/Images/Bar_chart-Crude_COVID_Rateto_National_Average.png)
 
 ## 4. Bar Chart: COVID Deaths Comparison by Jurisdiction and Region 1–9.
 
@@ -76,7 +76,7 @@
     * Jurisdictions with lower death tolls appear with shorter bars, providing a clear visual contrast.
     * A tooltip highlights critical data points (e.g., **Kentucky – 248,775 deaths**).
 
-![COVID Deaths Comparison](PowerBI/Images/Bar_Chart-COVID_Deaths_Comparison)
+![COVID Deaths Comparison](PowerBI/Images/Bar_Chart-COVID_Deaths_Comparison.png)
 
 ## 5. Clustered Bar Charts: Highest and Lowest Crude COVID Rates
 
@@ -102,8 +102,8 @@
     * Data labels are included to highlight precise crude COVID rates.
     * The visuals effectively contrast high-risk and low-risk jurisdictions.
 
-![Highest Crude COVID Rates](PowerBI/Images/Highest_Crude_COVID_Rates)
-![Lowest Crude COVID Rates](PowerBI/Images/Lowest_Crude_COVID_Rates)
+![Highest Crude COVID Rates](PowerBI/Images/Highest_Crude_COVID_Rates.png)
+![Lowest Crude COVID Rates](PowerBI/Images/Lowest_Crude_COVID_Rates.png)
 
 ## Conclusion
 These findings emphasize the need for targeted interventions in high-crude-rate regions and further analysis to understand factors contributing to lower rates in better-performing jurisdictions.
