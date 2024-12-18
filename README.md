@@ -101,7 +101,7 @@ To ensure high-quality analysis, the following steps were performed on the datas
 ## 📖How to Use
 
 1. **Clone the Repository**:
- git clone t
+ git clone https://github.com/itssachinjadhav/Covid19-Analytics-Project.git
 
 
 2. **SQL Analysis**:
