@@ -72,9 +72,9 @@
 
   **Key Features:**
 
-    * The chart includes **data labels** for precise death counts.
-    * Jurisdictions with lower death tolls appear with shorter bars, providing a clear visual contrast.
-    * A tooltip highlights critical data points (e.g., **Kentucky – 248,775 deaths**).
+   * The chart includes **data labels** for precise death counts.
+   * Jurisdictions with lower death tolls appear with shorter bars, providing a clear visual contrast.
+   * A tooltip highlights critical data points (e.g., **Kentucky – 248,775 deaths**).
 
 ![COVID Deaths Comparison](../PowerBI/Images/Bar_Chart-COVID_Deaths_Comparison.png)
 
@@ -84,20 +84,20 @@
    These visuals illustrate the jurisdictions with the highest and lowest crude COVID rates, helping  identify regions that performed notably well or poorly relative to others.
 
   ### 1. Highest Crude COVID Rates:
-    * The X-axis measures the crude COVID rates.represents jurisdictions with the highest rates.
-    * The Y-axis represents jurisdictions with the highest rates.
-    * **Key Observations:**
-       * Alabama and West Virginia report the highest crude COVID rates at 434 and 486 respectively.
-       * States like New York, Oklahoma and Mississippi follow closely with rates between 465 and 450.
+   * The X-axis measures the crude COVID rates.represents jurisdictions with the highest rates.
+   * The Y-axis represents jurisdictions with the highest rates.
+   * **Key Observations:**
+      * Alabama and West Virginia report the highest crude COVID rates at 434 and 486 respectively.
+      * States like New York, Oklahoma and Mississippi follow closely with rates between 465 and 450.
 
   ### 2. Lowest Crude COVID Rates:
-    * The X-axis measures the crude COVID rates.
+   * The X-axis measures the crude COVID rates.
     * The Y-axis represents jurisdictions with the lowest rates.
     * **Key Observations:**
        * Vermont and Hawaii report the lowest crude COVID rates at 10 and 65 respectively.
        * States like Alaska, utah and maine follow with rates between 114 and 150.
 
-    **Key Features:**
+   **Key Features:**
     * Each bar chart focuses on specific segments (highest vs. lowest jurisdictions) for clarity.
     * Data labels are included to highlight precise crude COVID rates.
     * The visuals effectively contrast high-risk and low-risk jurisdictions.
