@@ -53,12 +53,12 @@ The dataset used for this project includes:
     
     * A comprehensive set of SQL queries addressing key analytical questions.
     * Examples include identifying top jurisdictions, calculating weekly changes, and comparing death  rates.
-    - For more details, visit [SQL Analysis Queries](../SQL/covid_analysis_queries.sql).
+    - For more details, visit [SQL Analysis Queries](../SQL/Covid_Analysis_Queries.sql).
 
 2. **Power BI Dashboard:**
 
     * An interactive report providing users with the ability to filter and explore data dynamically.
-    * Download the dashboard here: [Power BI File](../PowerBI/covid_visuals.pbix).
+    * Download the dashboard here: [Power BI File](../PowerBI/Covid_Visuals.pbix).
 
 3. **Documentation:**
 
