@@ -1,12 +1,12 @@
-# Pandemic Mortality Trends: COVID-19 Data Analysis
+# Pandemic Mortality Trends: COVID-19 Data Analysis 🌍📊
 
-## Project Overview
+## 🗒️Project Overview
 
 This project delves into the provisional COVID-19 death data, providing insights into mortality trends across jurisdictions, exploring rate comparisons, and identifying key patterns. By leveraging SQL for data analysis and Power BI for dynamic visualizations, the project aims to reveal actionable insights about the pandemic's impact.
 
-## Features
+## ⭐Features
 
-### SQL Analysis
+### 🛠️SQL Analysis
 
 * **Top Jurisdictions**: Retrieve jurisdictions with the highest COVID deaths for the latest data period.
 
@@ -18,7 +18,7 @@ This project delves into the provisional COVID-19 death data, providing insights
 
 * **Custom Procedures**: Implement stored procedures and user-defined functions to calculate average weekly percentage changes and crude COVID rates.
 
-### Power BI Visualizations
+### 📈Power BI Visualizations
 
 * **Dynamic Reports**:
     - Regional trends in COVID deaths.
@@ -29,13 +29,13 @@ This project delves into the provisional COVID-19 death data, providing insights
     - Buttons and bookmarks to toggle between visuals.
     - Slicers for filtering by region, time, and demographic groups.
 
-## Technologies Used
+## 🖥️Technologies Used
 
 * **SQL**: For data extraction, transformation, and analysis.
 * **Power BI**: To create interactive and dynamic visualizations.
 * **Dataset**: Provisional COVID-19 death data, sourced from publicly available records.
 
-## Data Preparation and Cleaning
+## 🧹Data Preparation and Cleaning
 
 To ensure high-quality analysis, the following steps were performed on the dataset:
 
@@ -98,14 +98,14 @@ To ensure high-quality analysis, the following steps were performed on the datas
         MAX(Data_Recorded_End_Date) AS End_Date
         FROM CovidP WHERE Period = 'Weekly';
 
-## How to Use
+## 📖How to Use
 
 1. **Clone the Repository**:
     git clone <repo-url>
 
 2. **SQL Analysis**:
     * Open the SQL/ folder and execute the scripts in a compatible SQL environment (e.g., MySQL, MSSQL).
-    * Queries are modular to support specific insights, such as weekly trends and jurisdictional        comparisons.
+    * Queries are modular to support specific insights, such as weekly trends and jurisdictional comparisons.
 
 3. **Power BI Dashboard**:
     * Open covid_visuals.pbix in Power BI Desktop.
@@ -114,7 +114,7 @@ To ensure high-quality analysis, the following steps were performed on the datas
 4. **Data Dictionary**:
     * Refer to Data/data_dictionary.md for a detailed explanation of dataset fields.
 
-## SQL Queries
+## 🗂️SQL Queries
 
 ### Key Queries Included:
 
@@ -130,21 +130,23 @@ To ensure high-quality analysis, the following steps were performed on the datas
 
    For a detailed explanation of the SQL analysis, refer to [Analysis Steps](./Documentation/analysis_steps.md).
 
-## Power BI Visuals:
+## 📊Power BI Visuals:
 
 ### Key Visuals Included:
 
    1. **Bar Chart**:
-    * **Purpose**: Show distribution of COVID deaths across jurisdictions.
-    * **Features**: Includes slicers for region and time filtering.
+
+      * **Purpose**: Show distribution of COVID deaths across jurisdictions.
+      * **Features**: Includes slicers for region and time filtering.
    
-   2. **Line Chart**:
-    * **Purpose**: Analyze weekly trends in crude COVID rates.
-    * **Interactivity**: Toggle between cumulative and non-cumulative views using bookmarks.
+   3. **Line Chart**:
+      
+      * **Purpose**: Analyze weekly trends in crude COVID rates.
+      * **Interactivity**: Toggle between cumulative and non-cumulative views using bookmarks.
 
-   3. **Custom Analysis**: A user-driven insight added to showcase trends not initially included in the dataset.
+   5. **Custom Analysis**: A user-driven insight added to showcase trends not initially included in the dataset.
 
-## Results Highlights
+## 🎯Results Highlights
 
 * **Top Jurisdictions**: Region 3 recorded the highest COVID deaths in the latest data.
 
